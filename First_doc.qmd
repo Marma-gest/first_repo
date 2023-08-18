@@ -35,4 +35,4 @@ The `echo: false` option disables the printing of code (only output is displayed
 plot(cars)
 ```
 
-Mitt første plot er vist i
+mitt første plot vist i @fig-first_plot
