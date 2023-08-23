@@ -4,6 +4,10 @@ format: html
 editor: visual
 ---
 
+```{r}
+
+```
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document.
@@ -47,4 +51,97 @@ x <- 2
 ```{r}
 (2/15)^0.25*exp(4) - 200
 
+```
+
+```{r}
+set.seed(666)
+til <- Sys.time()
+x <- rnorm(1000000)
+Sys.time() - t1
+
+```
+
+t1 \<1
+
+```{r}
+X <- numeric(1000000)
+set.seed(666)
+```
+
+```{r}
+set.seed(666)
+x <- rnorm(1000000)
+
+```
+
+```{r}
+x <- x[1:10]
+q <- x < 0
+```
+
+```{r}
+x
+
+```
+
+```{r}
+q
+```
+
+Hvordan finne hvor mange negative verdier i x?
+
+```{r}
+sum(q)
+```
+
+```{r}
+temp <- c(11, 17, 22, 15, 15, 25)
+weather <- c("Rainy", "Sunny", "Sunny", "Fair", "Fair", "Sunny") 
+```
+
+```{r}
+temp
+```
+
+```{r}
+weather
+```
+
+```{r}
+names(temp) <- weather
+```
+
+```{r}
+temp
+```
+
+```{r}
+temp <- c(11, 17, 22, 15, 15, 25)
+weather <- c("Rainy", "Sunny", "Fair") 
+```
+
+```{r}
+
+```
+
+```{r}
+names(temp) <- weather
+```
+
+```{r}
+# some codeing of sex, 1 female, 2 male
+sex <- c(1, 2, 1, 2, 2, 1, 2)
+```
+
+```{r}
+# new labels, "F" for 1 and "M" for 2
+sex_f <- factor(sex, labels = c("F", "M"))
+```
+
+```{r}
+sex_f
+```
+
+```{r}
+table(sex_f)
 ```
