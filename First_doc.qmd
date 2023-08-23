@@ -36,3 +36,15 @@ plot(cars)
 ```
 
 mitt første plot vist i @fig-first_plot
+
+## Litt klassisk R
+
+```{r}
+2+2
+x <- 2
+```
+
+```{r}
+(2/15)^0.25*exp(4) - 200
+
+```
