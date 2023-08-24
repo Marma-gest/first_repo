@@ -145,3 +145,71 @@ sex_f
 ```{r}
 table(sex_f)
 ```
+
+Torsdag 24.08.23
+
+```{r}
+df <- data.frame(x = 1:3, y = letters[1:3], z = LETTERS[1:3])
+```
+
+```{r}
+df1 <- data.frame(x = 1:3, y = letters[1:3], 
+                 z = df)
+```
+
+Velg kollonne 2
+
+```{r}
+# all rows, col 2
+df[,2]
+```
+
+Velg kollonne 1 og 3
+
+```{r}
+# col 1 and 3
+df[, c(1,3)]
+```
+
+Velg ut kollonne 2 med navn; "y"
+
+```{r}
+# col 2 by name
+df[, "y"]
+```
+
+Velg ut kollonne 1 og 3 med navn "x" og "z"
+
+```{r}
+df[, c("x", "z")]
+```
+
+Velg rad 1:
+
+```{r}
+
+df[1,]
+```
+
+Velg rad 1 og 3:
+
+```{r}
+
+df[c(1, 3),]
+```
+
+Velg rad 2 og kollone 3:
+
+```{r}
+df[2, 3]
+```
+
+```{r}
+tib <- as_tibble(df)
+```
+
+Subsets:
+
+```{r}
+dim(cars)
+```
