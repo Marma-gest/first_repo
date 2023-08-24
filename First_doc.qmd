@@ -213,3 +213,32 @@ Subsets:
 ```{r}
 dim(cars)
 ```
+
+Regresjon:
+
+```{r}
+lm1 <- lm(formula = dist ~ speed, data = cars)
+```
+
+```{r}
+# Note! -1 at end of formula
+lm2 <- lm(formula = dist ~ speed -1, data = cars)
+
+```
+
+```{r}
+# only on a subset of data
+lm3 <- lm(formula = dist ~ speed, 
+          data = cars, 
+          subset = cars$speed > 6 & cars$speed < 11
+         
+           )
+```
+
+```{r}
+huxreg(
+        lm1, lm2, lm3,
+        error_format = "({statistic})", 
+        note         = "{stars}. T statistics in parentheses."
+      )
+```
