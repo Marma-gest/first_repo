@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+Lagt inn slik at tidyverse ligger inne konstant:
+
 ```{r}
 #| label: setup
 
