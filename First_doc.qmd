@@ -58,14 +58,6 @@ x <- 2
 
 ```
 
-```{r}
-set.seed(666)
-til <- Sys.time()
-x <- rnorm(1000000)
-Sys.time() - t1
-
-```
-
 t1 \<1
 
 ```{r}
