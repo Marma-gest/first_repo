@@ -417,5 +417,5 @@ head_and_tail(mtcars[, 1:6], n = 3)
 ```
 
 ```{r}
-head_and_tail(cars)
+head_and_tail(cars) 
 ```
