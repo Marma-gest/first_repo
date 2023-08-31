@@ -1,7 +1,23 @@
 ---
 title: "my_pres"
 author: "mm"
-format: revealjs
+format:
+  revealjs:
+    Theme: simple
+    reveal_options:
+    code-fold: true
+    incremental: true
+    smaller: true
+    scrollable: true
+  pptx: 
+    incremental: true
+    fig-asp: 0.7
+    fig-width: 12
+  beamer: 
+    incremental: true
+    aspectratio: 1610
+    navigation: horizontal
+    theme: Bergen
 editor: visual
 echo: true
 language: no.yaml
