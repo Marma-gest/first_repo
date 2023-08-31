@@ -20,7 +20,7 @@ format:
     theme: Bergen
 editor: visual
 echo: true
-language: no.yaml
+language: nb.yaml
 ---
 
 ## Quarto
@@ -55,4 +55,4 @@ Slik lager vi plot
 plot(cars)
 ```
 
-I @fig-biler er det et flott plot av fart og bremselengde.
+I @fig-biler er det et flott plot av fart og bremselengde..
