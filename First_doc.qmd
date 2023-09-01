@@ -1,7 +1,7 @@
 ---
 title: "First_doc"
 format: html
-editor: visual
+editor: visual 
 ---
 
 Lagt inn slik at tidyverse ligger inne konstant:
